@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 	<link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.7.95/css/materialdesignicons.min.css">
-	<script src="index.js"></script>
+	<script src="js/index.js"></script>
 	<link rel="stylesheet" href="index.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0;">
@@ -30,11 +30,11 @@
   
     <div id="navbarBasicExample" class="navbar-menu">
 	    <div class="navbar-start">
-	      <a class="navbar-item">
+	      <a href="index.html" class="navbar-item">
 	        About
 	      </a>
 
-	      <a href="projects.html" class="navbar-item">
+	      <a class="navbar-item">
 	        Projects
 	      </a>
 
@@ -46,32 +46,23 @@
 	  </div>
 	</nav>
 
-	<img src="bella.jpg" alt="Me">
+	<div class="container is-fluid">
+	    <div class="notification">
+	    <strong>Personal Projects</strong>
+	    </div>
+    </div>
+    <p> Project1</p>
 
-	<p> <b><span id="greeting"> Good Morning! </span></b>
-		I'm Isabella, a 3rd year Computer Science major at UC Berkeley. I have industry experience in Web, Desktop, and Mobile App development. At school, I currently serve as External Vice President of PASAE (Pilipinx Association of Scientists, Architects, and Engineers). In my free time, I enjoy playing violin, exploring neighborhoods, and watching musical theatre. 
-	</p>
+    <div class="container is-fluid">
+	    <div class="notification">
+	    <strong>Internship Projects</strong>
+	    </div>
+    </div>
 
-	<script> getGreeting(); </script>
-
-
-	<p class="buttons">
-	<button class="button is-medium is-light">
-    <span class="icon">
-      <i class="fab fa-github"></i>
-    </span>
-    <span><a href="https://github.com/isabelladeleon12" target="_blank">GitHub</a></span>
-    </button>
-
-    <button class="button is-medium is-light"> 
-    <span class="icon">
-    	<i class="fab fa-linkedin-in"></i>
-    </span>
-    <span><a href="https://www.linkedin.com/in/isabella-de-leon/" target="_blank">LinkedIn</a></span>
-
-    </button>
-	</p>
-
-
-
+    <div class="container is-fluid">
+	    <div class="notification">
+	    <strong>Other</strong>
+	    </div>
+    </div>
+</div>
 </body>
