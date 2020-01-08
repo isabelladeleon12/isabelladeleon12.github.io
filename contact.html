@@ -27,43 +27,43 @@
 
 
 	<nav class="navbar" role="navigation" aria-label="main navigation">
-  
-    <div id="navbarBasicExample" class="navbar-menu">
-	    <div class="navbar-start">
-	      <a href="index.html" class="navbar-item">
-	        About
-	      </a>
+        <div class="navbar-brand">
+          <span class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="index.html" class="navbar-item">About</a>
+            <a href="projects.html" class="navbar-item">Projects</a>
+            <div class="navbar-item has-dropdown is-hoverable">
+            	<a class="navbar-link">More</a>
+            		<div class="navbar-dropdown">
+            			<a href="contact.html" class="navbar-item is-active">Contact </a>
+            			<a href="blog.html" class="navbar-item">Blog </a>
+            			<a href="misc.html" class="navbar-item">Misc </a>
+            		</div>
+            </div>
+          </div>
+        </div>
+    </nav>
 
-	      <a href="projects.html" class="navbar-item">
-	        Projects
-	      </a>
-
-	      
-
-      	  <div class="navbar-item has-dropdown is-hoverable">
-	      <a class="navbar-link">
-	          More
-	       </a>
-
-	        <div class="navbar-dropdown">
-	          <a href="contact.html" class="navbar-item">
-	            Contact
-	          </a>
-	          <a href="blog.html" class="navbar-item">
-	            Blog
-	          </a>
-	          <a href="misc.html" class="navbar-item">
-	            Misc
-	          </a>
-	        </div>
-	    </div>
-	  </div>
-	</nav>
-
+    <script type="text/javascript">
+      (function() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#'+burger.dataset.target);
+        burger.addEventListener('click', function(){
+          burger.classList.toggle('is-active');
+          nav.classList.toggle('is-active');
+        });
+      })();
+    </script>
 
 	<p><b>Contact me! </b> <br>
 	Email: ijdeleon@berkeley.edu
-	
+
 	</p>
 
 	<p class="buttons">
