@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+p {
+  margin: 35px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;	
+  border-radius: 0%;
+}
+
+#poster {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;  
+  border-radius: 0%;
+
+}
