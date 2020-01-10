@@ -32,3 +32,21 @@ img {
   border-radius: 0%;
 
 }
+
+#isbn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  
+  border-radius: 0%;
+
+}
+
+#good {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;  
+  border-radius: 0%;
+
+}
