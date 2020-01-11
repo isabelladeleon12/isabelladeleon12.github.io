@@ -6,7 +6,7 @@ body {
 }
 
 p {
-  margin: 35px;
+  margin: 80px;
 }
 
 .center {
@@ -20,6 +20,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
-  border-radius: 0%;
+  width: 40%;	
+  border-radius: 50%;
 }
